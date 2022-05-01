@@ -13,4 +13,6 @@ testing_model.ipynb -> Notebook that tested the gesture recognition model agains
 
 gesture_recognition.py -> Program that implements the model in real-time and displays camera frames with live prediction in a popup window
 
+drone_marshalling_signals.png -> Displays the different types of drone marshalling signals on the window created by gesture_recognition.py 
+
 For more information on the drone, programs or progression of this project refer to the MS Word file
