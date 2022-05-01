@@ -5,9 +5,6 @@ from PIL import Image
 import cvzone
 from cvzone .SelfiSegmentationModule import SelfiSegmentation
 
-#import keyboard
-#delete after use
-
 import torch
 import torch.nn as nn
 import torch.nn.functional as func
@@ -126,7 +123,7 @@ change_res(640, 480)
 threshold = 60  # binary threshold
 blurValue = 41  # GaussianBlur parameter
 bgSubThreshold = 50
-# allow the camera to warmup
+# lets the camera warmup
 time.sleep(0.1)
 
 segmentor = SelfiSegmentation()
@@ -155,7 +152,27 @@ while True:
     text_thresh = copy.deepcopy(thresh)
 
     #if prediction == "upwards":
-    #    keyboard.press_and_release(" ")
+    #    
+    #elif prediction == "downwards":
+    # 
+    #elif prediction == "left":
+    #
+    #elif prediction == "right":
+    #
+    #elif prediction == "forwards":
+    #
+    #else:
+    #
+    #Add your method of controlling the drone in the selection statement above 
+    #   • To control your drone using MAVLink use a Radio Telemetry Kit and connect 
+    #     the drone to your ground control software (GCS). Then setup a (virtual) controller
+    #     on your GCS and use this python script and the xbox360controller or pyvjoy library
+    #     to emulate the appopiate joystick movements to tell the drone how to move. The GCS 
+    #     will receive these inputs and send commands to the drone via MAVLink.
+    
+    #   • To control the DJI Tello use the djitellopy library
+    #   • To control your drone using UDP and an ESP2866 use the esptool library
+    
 
     cv2.putText(img = text_thresh,
                 text = f"Prediction: {prediction} Certainty: {int(score)}",
@@ -166,7 +183,7 @@ while True:
     cv2.imshow('black and white', text_thresh)
     cv2.imshow('frame1', frame1)
 
-    # if the `c` key was pressed, break from the loop
+    # if the `c` key is pressed, it will break from the loop
     if cv2.waitKey(1) == ord('c'):
         break
 
