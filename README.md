@@ -23,4 +23,4 @@ For more information on the drone, programs or progression of this project refer
 
 Gesture Recognition             |  Drone
 :-------------------------:|:-------------------------:
-<img src="https://user-images.githubusercontent.com/83774603/166167482-e26b4435-2481-474f-b5b6-0d3243cd553f.png" width="400" height="450">  |  <img src="https://user-images.githubusercontent.com/83774603/166167476-c5ee91ba-37bf-4157-979d-35d3fee2236e.png" width="500" height="450">
+<img src="https://user-images.githubusercontent.com/83774603/166167482-e26b4435-2481-474f-b5b6-0d3243cd553f.png" width="400" height="445">  |  <img src="https://user-images.githubusercontent.com/83774603/166167476-c5ee91ba-37bf-4157-979d-35d3fee2236e.png" width="520" height="445">
