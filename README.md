@@ -16,7 +16,7 @@ gesture_recognition.py -> Program that implements the model in real-time and dis
 
 drone_marshalling_signals.png -> Displays the different types of drone marshalling signals on the window created by gesture_recognition.py 
 
-For more information on the drone, programs or progression of this project refer to the MS Word file
+For more information on the drone, programs or progression of this project refer to the documentation PDF
 
 
 
